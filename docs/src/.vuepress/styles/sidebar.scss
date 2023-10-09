@@ -1,0 +1,34 @@
+aside.sidebar {
+  border-right: $navbar-sidebar-border-color;
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+.vp-sidebar {
+  padding-inline-start: unset; // width of sidebar
+  background: $sidebar-bg-color;
+}
+
+.sidebar-links {
+  button.sidebar-heading {
+    padding-inline-start: 1rem;
+    font-size: 1em;
+    font-weight: 450;
+  }
+}
+
+#sidebar {
+    .vp-sidebar-links {
+      .vp-sidebar-group {
+        @include bold-text;
+      }
+
+      .vp-link {
+        @include bold-text;
+      }
+
+      & li {
+        margin: 0.2rem 0 0.2rem 0; // sidebar spacing between links
+      }
+    }
+  }

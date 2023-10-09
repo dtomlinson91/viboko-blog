@@ -1,0 +1,26 @@
+header.vp-navbar {
+    border-bottom: $navbar-sidebar-border-color;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+
+    backdrop-filter: saturate(200%) blur(5px);
+
+    $font-size: 1rem;
+    .nav-dropdown {
+      font-size: #{$font-size};
+
+      .nav-link {
+        font-size: #{$font-size};
+        padding-bottom: 0.2rem;
+      }
+    }
+
+    .nav-item {
+      font-size: #{$font-size};
+    }
+
+    .search-pro-button {
+      width: 150px;
+      border-radius: 0%;
+    }
+  }

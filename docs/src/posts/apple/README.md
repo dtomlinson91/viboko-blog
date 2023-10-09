@@ -17,7 +17,7 @@ How to update Airflow
 
 <!-- more -->
 
-```python
+```python {8}
 import meilisearch
 
 from common import MEILISEARCH_API_KEY, MEILISEARCH_URL

@@ -21,8 +21,8 @@ export default sidebar({
   ],
   "/posts/apple/": [
     {
-      text: "Apple",
-      icon: "book",
+      text: "Apples",
+      icon: "ri:apple-fill",
       prefix: "",
       link: "/posts/apple",
       children: "structure",

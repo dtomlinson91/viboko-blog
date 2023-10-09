@@ -4,10 +4,37 @@
 // https://theme-hope.vuejs.press/config/style.html#color-config
 
 $theme-color: #fce883;
+$title-color: $theme-color;
 
 $text-color: (
   light: #2c3e50,
   dark: #c4c8ef,
 );
 
-// $sidebar-width: 20px;
+$bg-color: (
+  light: #fff,
+  dark: #0d101c,
+);
+$bg-color-secondary: (
+  light: #f8f8f8,
+  dark: #151b2f,
+);
+$bg-color-tertiary: (
+  light: #efeef4,
+  dark: #1e253f,
+);
+
+$code-bg-color: (
+  light: #1c003c,
+  dark: #1c003c,
+);
+$code-color: $text-color;
+
+$sidebar-bg-color: #0c0e19;
+$navbar-sidebar-border-color: #141f40;
+
+// controls the navbar color
+$bg-color-blur: (
+  light: rgba(12, 14, 25, 0.5),
+  dark: rgba(12, 14, 25, 0.5),
+);

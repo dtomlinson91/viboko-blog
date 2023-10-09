@@ -87,8 +87,12 @@ export default hopeTheme({
 
     comment: {
       // You should generate and use your own comment service
-      provider: "Waline",
-      serverURL: "https://waline-comment.vuejs.press",
+      provider: "Giscus",
+      repo: "dtomlinson91/viboko-blog",
+      repoId: "R_kgDOKeKTpA",
+      category: "Announcements",
+      categoryId: "DIC_kwDOKeKTpM4CZ_mu",
+      darkTheme: "https://giscus.app/themes/purple_dark.css"
     },
 
     // all features are enabled for demo, only preserve features you need here
