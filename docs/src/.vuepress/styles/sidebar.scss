@@ -7,6 +7,20 @@ aside.sidebar {
 .vp-sidebar {
   padding-inline-start: unset; // width of sidebar
   background: $sidebar-bg-color;
+
+  & .icon {
+    margin-inline-end: 0.4rem;
+  }
+
+  & .vp-sidebar-title {
+    margin: 0.4rem 0 0.2rem 0;
+  }
+  // .vp-sidebar vp-sidebar-links vp-sidebar-page
+  & .vp-sidebar-links {
+    & .vp-sidebar-page {
+      padding-top: 0.4rem;
+    }
+  }
 }
 
 .sidebar-links {
@@ -18,17 +32,17 @@ aside.sidebar {
 }
 
 #sidebar {
-    .vp-sidebar-links {
-      .vp-sidebar-group {
-        @include bold-text;
-      }
+  .vp-sidebar-links {
+    .vp-sidebar-group {
+      @include bold-text;
+    }
 
-      .vp-link {
-        @include bold-text;
-      }
+    .vp-link {
+      @include bold-text;
+    }
 
-      & li {
-        margin: 0.2rem 0 0.2rem 0; // sidebar spacing between links
-      }
+    & li {
+      margin: 0.2rem 0 0.2rem 0; // sidebar spacing between links
     }
   }
+}

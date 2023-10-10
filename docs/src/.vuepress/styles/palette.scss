@@ -3,6 +3,8 @@
 
 // https://theme-hope.vuejs.press/config/style.html#color-config
 
+@import "./functions.scss";
+
 $theme-color: #fce883;
 $title-color: $theme-color;
 
@@ -38,3 +40,50 @@ $bg-color-blur: (
   light: rgba(12, 14, 25, 0.5),
   dark: rgba(12, 14, 25, 0.5),
 );
+
+$project-card-color-1: (
+  light: #1c003c,
+  dark: #1c003c,
+);
+$project-card-color-2: (
+  light: #280056,
+  dark: #280056,
+);
+$project-card-color-3: (
+  light: #34006f,
+  dark: #34006f,
+);
+$project-card-color-4: (
+  light: #400089,
+  dark: #400089,
+);
+
+// sets color for tabs/code-blocks/giscus
+$tab-bg-color: (
+  light: #1c003c,
+  dark: #1c003c,
+);
+
+$tab-nav-bg-color: (
+  light: #310069,
+  dark: #310069,
+);
+
+$tab-nav-hover-color: (
+  light: shade(map-get($tab-nav-bg-color, "light"), 20%),
+  dark: shade(map-get($tab-nav-bg-color, "dark"), 20%),
+);
+
+$copy-button-background-color: #f9cf00;
+$copy-button-color: black;
+
+$back-to-top-button: $copy-button-background-color;
+
+// admonitions
+$tip-border-color: #52d552;
+$info-border-color: #3829f7;
+$note-border-color: #1785f4;
+$warning-border-color: #c6b731;
+$danger-border-color: #990000;
+$details-border-color: #7d8a97;
+$series-border-color: #6d0fbb;

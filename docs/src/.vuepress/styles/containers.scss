@@ -1,32 +1,32 @@
-html[data-theme="dark"] {
-  div.theme-hope-content {
-    & > div.series {
-      & > div.hint-container.info {
-        background: purple;
-        border-color: purple;
-      }
-    }
+// html[data-theme="dark"] {
+//   div.theme-hope-content {
+//     & > div.series {
+//       & > div.hint-container.info {
+//         background: purple;
+//         border-color: purple;
+//       }
+//     }
 
-    & > div.hint-container.info {
-      & > p.hint-container-title {
-        &::before {
-          background-image: url("/assets/icons/info_icon.svg");
-          background-size: contain;
-          width: 1.5rem;
-          height: 1.5rem;
-        }
-      }
-    }
+//     & > div.hint-container.info {
+//       & > p.hint-container-title {
+//         &::before {
+//           background-image: url("/assets/icons/info_icon.svg");
+//           background-size: contain;
+//           width: 1.5rem;
+//           height: 1.5rem;
+//         }
+//       }
+//     }
 
-    & > div.hint-container.note {
-      & > p.hint-container-title {
-        &::before {
-          background-image: url("/assets/icons/note_icon.svg");
-          background-size: contain;
-          width: 1.5rem;
-          height: 1.5rem;
-        }
-      }
-    }
-  }
-}
+//     & > div.hint-container.note {
+//       & > p.hint-container-title {
+//         &::before {
+//           background-image: url("/assets/icons/note_icon.svg");
+//           background-size: contain;
+//           width: 1.5rem;
+//           height: 1.5rem;
+//         }
+//       }
+//     }
+//   }
+// }

@@ -3,28 +3,28 @@ home: true
 layout: BlogHome
 icon: home
 title: Blog Home
-# heroImage: /assets/v0032.svg
+heroImage: /assets/icons/navbar_icon.svg
 heroText: viboko.io
-bgImage: /assets/vision_mission_background.svg
-tagline: "Discovering Data and Coding Insights: Technical articles covering diverse subjects like Python coding and data engineering, among other topics."
+bgImage: /assets/backgrounds/vision_mission_background.svg
+tagline: "Discovering Data and Coding Insights<br> Technical articles covering diverse subjects like Python coding and data engineering, among other topics."
 heroFullScreen: false
 projects:
-  - icon: project
+  - icon: clarity:timeline-line
     name: timeline
     desc: timeline of all articles
     link: /timeline
 
-  - icon: link
+  - icon: mdi:tag-outline
     name: tags
     desc: all tags
     link: /tag
 
-  - icon: book
+  - icon: mdi:book-outline
     name: categories
     desc: all categories
     link: /category
 
-  - icon: article
+  - icon: ri:article-line
     name: series
     desc: all series
     link: /tag/series

@@ -1,0 +1,109 @@
+html[data-theme="dark"] {
+  .hint-container {
+    background: map-get($bg-color, "dark");
+    border-radius: 0.5rem;
+    border-inline-start-width: unset;
+    border: solid;
+
+    &.tip {
+      background: unset;
+      border-color: $tip-border-color;
+
+      & > p.hint-container-title {
+        padding-inline-start: 2rem;
+        padding-top: 0.4rem;
+        margin-top: 0.5rem;
+
+        &::before {
+          background-image: url("/assets/icons/tip_icon.svg");
+          background-size: contain;
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+    }
+
+    &.info {
+      background: unset;
+      border-color: $info-border-color;
+
+      & > p.hint-container-title {
+        padding-inline-start: 2rem;
+        padding-top: 0.4rem;
+        margin-top: 0.5rem;
+
+        &::before {
+          background-image: url("/assets/icons/info_icon.svg");
+          background-size: contain;
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+    }
+
+    &.note {
+      background: unset;
+      border-color: $note-border-color;
+
+      & > p.hint-container-title {
+        padding-inline-start: 2rem;
+        padding-top: 0.4rem;
+        margin-top: 0.5rem;
+
+        &::before {
+          background-image: url("/assets/icons/note_icon.svg");
+          background-size: contain;
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+    }
+
+    &.warning {
+      background: unset;
+      border-color: $warning-border-color;
+
+      & > p.hint-container-title {
+        padding-inline-start: 2rem;
+        padding-top: 0.4rem;
+        margin-top: 0.5rem;
+
+        &::before {
+          background-image: url("/assets/icons/warning_icon.svg");
+          background-size: contain;
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+    }
+
+    &.danger {
+      background: unset;
+      border-color: $danger-border-color;
+
+      & > p.hint-container-title {
+        padding-inline-start: 2rem;
+        padding-top: 0.4rem;
+        margin-top: 0.5rem;
+
+        &::before {
+          background-image: url("/assets/icons/danger_icon.svg");
+          background-size: contain;
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+    }
+
+    &.details {
+      background: unset;
+      border-color: $details-border-color;
+    }
+  }
+
+  & .vp-card {
+    border-color: $series-border-color;
+    border-style: solid;
+    color: tint($series-border-color, 30%);
+  }
+}

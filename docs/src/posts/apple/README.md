@@ -17,6 +17,13 @@ How to update Airflow
 
 <!-- more -->
 
+## Code example
+
+
+:::code-tabs
+
+@tab `main.py`
+
 ```python {8}
 import meilisearch
 
@@ -33,3 +40,13 @@ if __name__ == "__main__":
     main()
 
 ```
+
+:::
+
+## Tabs
+
+:::tabs
+
+@tab prod
+Airflow
+:::

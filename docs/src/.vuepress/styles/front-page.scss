@@ -1,15 +1,66 @@
+$hero-margin: 7rem;
+
 .vp-blog-info-wrapper {
   display: none;
 }
 
 .vp-blog-hero {
   height: 12rem;
+  margin-bottom: $hero-margin;
 }
 
 .vp-blog-mask {
   padding-top: 200px;
   display: block;
-  height: 105%;
+  height: 145%; // background height;
   object-fit: cover;
   opacity: 0.05;
+}
+
+// .blog-page-wrapper {
+//   margin-top: $hero-margin;
+// }
+
+.vp-blog-hero-image {
+  margin-top: $hero-margin;
+}
+
+.vp-blog-hero-description {
+  text-align: center;
+}
+
+// project cards
+// https://www.colorhexa.com/400089
+html[data-theme="dark"] {
+  .vp-project-card.project0 {
+    background: map-get($project-card-color-1, "dark");
+
+    &:hover {
+      background: shade(map-get($project-card-color-1, "dark"), 20%);
+    }
+  }
+
+  .vp-project-card.project1 {
+    background: map-get($project-card-color-2, "dark");
+
+    &:hover {
+      background: shade(map-get($project-card-color-2, "dark"), 20%);
+    }
+  }
+
+  .vp-project-card.project2 {
+    background: map-get($project-card-color-3, "dark");
+
+    &:hover {
+      background: shade(map-get($project-card-color-3, "dark"), 20%);
+    }
+  }
+
+  .vp-project-card.project3 {
+    background: map-get($project-card-color-4, "dark");
+
+    &:hover {
+      background: shade(map-get($project-card-color-4, "dark"), 20%);
+    }
+  }
 }

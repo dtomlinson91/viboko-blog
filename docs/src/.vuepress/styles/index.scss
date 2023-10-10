@@ -1,3 +1,4 @@
+@import "./functions.scss";
 @import "./palette.scss";
 @import "./mixins.scss";
 
@@ -6,3 +7,8 @@
 @import "./font.scss";
 @import "./sidebar.scss";
 @import "./navbar.scss";
+@import "./page-content/admonitions.scss";
+@import "./page-content/tabs.scss";
+@import "./page-content/code-tabs.scss";
+@import "./page-content/page.scss";
+@import "./page-content/buttons.scss";

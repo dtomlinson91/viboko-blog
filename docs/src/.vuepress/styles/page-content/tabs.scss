@@ -1,0 +1,23 @@
+html[data-theme="dark"] {
+  .vp-tabs-nav {
+    background: map-get($tab-nav-bg-color, "dark");
+  }
+
+  .vp-tab-nav {
+    &.active {
+      background: map-get($tab-bg-color, "dark");
+    }
+
+    &:hover {
+      background: map-get($tab-nav-hover-color, "dark")
+    }
+  }
+
+  .vp-tab {
+    background: map-get($tab-bg-color, "dark");
+  }
+
+  .vp-tabs {
+    border: unset;
+  }
+}
