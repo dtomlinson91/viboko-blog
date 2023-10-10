@@ -1,0 +1,3 @@
+html[data-theme="dark"] code {
+    background: map-get($inline-code-bg-color, "dark")
+}

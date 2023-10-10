@@ -17,8 +17,19 @@ How to update Airflow
 
 <!-- more -->
 
-## Code example
+## inline code
 
+`some-value`
+
+## table
+
+| Source | Dest |
+| :----- | :--- |
+| A      | 1    |
+| B      | 2    |
+| C      | 3    |
+
+## Code example
 
 :::code-tabs
 

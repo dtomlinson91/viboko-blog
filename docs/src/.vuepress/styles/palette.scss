@@ -26,11 +26,16 @@ $bg-color-tertiary: (
   dark: #1e253f,
 );
 
+// code blocks/inline code
 $code-bg-color: (
   light: #1c003c,
   dark: #1c003c,
 );
 $code-color: $text-color;
+$inline-code-bg-color: (
+  light: #420055,
+  dark: #420055,
+);
 
 $sidebar-bg-color: #0c0e19;
 $navbar-sidebar-border-color: #141f40;
@@ -87,3 +92,15 @@ $warning-border-color: #c6b731;
 $danger-border-color: #990000;
 $details-border-color: #7d8a97;
 $series-border-color: #6d0fbb;
+
+// tags/categories
+$tag-button-color: #9b2e2e;
+$category-button-color: #b79a07;
+$tag-color: (
+  light: #0862c3,
+  dark: #2589f6,
+);
+$tag-background-color: (
+  light: #e4f0fe,
+  dark: #021b36,
+);

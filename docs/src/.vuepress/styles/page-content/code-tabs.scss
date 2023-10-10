@@ -3,19 +3,19 @@ div[class*="language-"]::before {
   padding-top: 0.5rem;
 }
 
-button.vp-code-tab-nav {
-  & code {
-    background: unset;
-    font-family: "Soleil";
-    font-size: 0.9rem;
-  }
-}
-
 html[data-theme="dark"] {
   button.copy-code-button {
     background: $copy-button-background-color !important;
     & .copy-icon {
       color: $copy-button-color !important;
+    }
+  }
+
+  button.vp-code-tab-nav {
+    & code {
+      background: unset;
+      font-family: "Soleil";
+      font-size: 0.9rem;
     }
   }
 }

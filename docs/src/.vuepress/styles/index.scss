@@ -3,12 +3,14 @@
 @import "./mixins.scss";
 
 @import "./containers.scss";
-@import "./front-page.scss";
 @import "./font.scss";
-@import "./sidebar.scss";
+@import "./front-page.scss";
 @import "./navbar.scss";
 @import "./page-content/admonitions.scss";
-@import "./page-content/tabs.scss";
-@import "./page-content/code-tabs.scss";
-@import "./page-content/page.scss";
 @import "./page-content/buttons.scss";
+@import "./page-content/code-tabs.scss";
+@import "./page-content/inline-code.scss";
+@import "./page-content/page.scss";
+@import "./page-content/tabs.scss";
+@import "./sidebar.scss";
+@import "./tags-categories.scss";
