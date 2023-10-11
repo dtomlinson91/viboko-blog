@@ -1,0 +1,12 @@
+.page-cover {
+    width: calc(50vh);
+    // max-height: 25vh;
+    max-width: 100vw;
+    margin-top: 2rem;
+    display: block;
+
+    @media (min-width: $tablet) {
+      margin-left: 250px;
+      margin-right: 250px;
+    }
+  }

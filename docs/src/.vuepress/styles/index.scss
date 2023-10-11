@@ -1,6 +1,7 @@
 @import "./functions.scss";
 @import "./palette.scss";
 @import "./mixins.scss";
+@import "./config.scss";
 
 @import "./containers.scss";
 @import "./font.scss";
@@ -9,18 +10,10 @@
 @import "./page-content/admonitions.scss";
 @import "./page-content/buttons.scss";
 @import "./page-content/code-tabs.scss";
+@import "./page-content/cover-image.scss";
 @import "./page-content/fonts.scss";
 @import "./page-content/inline-code.scss";
 @import "./page-content/page.scss";
 @import "./page-content/tabs.scss";
 @import "./sidebar.scss";
 @import "./tags-categories.scss";
-
-.page-cover {
-  width: calc(50vh);
-  max-height: 25vh;
-  margin-left: 250px;
-  margin-right: 250px;
-  margin-top: 2rem;
-  display: block;
-}

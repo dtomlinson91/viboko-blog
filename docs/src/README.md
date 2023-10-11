@@ -7,7 +7,7 @@ heroImage: /assets/icons/navbar_icon.svg
 heroText: viboko.io
 bgImage: /assets/backgrounds/vision_mission_background.svg
 # tagline: "Discovering Data and Coding Insights<br> Technical articles covering diverse subjects like Python coding and data engineering, among other topics."
-tagline: "Elevate Your Tech Proficiency:<br /> Explore various topics such as Data Engineering, Python and Homelab."
+tagline: "Elevate Your Tech Proficiency<br /> Explore various topics such as Data Engineering, Python and Homelab."
 heroFullScreen: false
 projects:
   - icon: clarity:timeline-line
