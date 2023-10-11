@@ -233,11 +233,11 @@ pub mod thread;
 This **defines the path that people can use** to access your function from their own crates. Without using `mod`, there is no path to this function. You can't refer to it using `use` or its full path from another file without `mod`.
 :::
 
-### Using mod
+### Module Source Filenames
 
 Using `mod` as in:
 
-```
+```rs
 pub mod thread;
 ```
 
@@ -257,7 +257,7 @@ Say you want people to be able to use `spawn()` more easily. You could use `use`
 
 ```rust
 pub mod thread;
-use thread::spawn;
+use thread::spawn; // you've defined thread as a module
 ```
 
 :::
