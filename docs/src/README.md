@@ -2,7 +2,7 @@
 home: true
 layout: BlogHome
 icon: home
-title: Blog Home
+title: Home
 heroImage: /assets/icons/navbar_icon.svg
 heroText: viboko.io
 bgImage: /assets/backgrounds/vision_mission_background.svg

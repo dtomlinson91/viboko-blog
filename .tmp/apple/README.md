@@ -9,8 +9,8 @@ tag:
   - big
   - round
   - series
-star: true
-sticky: true
+# star: true
+# sticky: true
 ---
 
 How to update Airflow
