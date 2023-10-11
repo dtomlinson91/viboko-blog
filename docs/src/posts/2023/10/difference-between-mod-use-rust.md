@@ -3,13 +3,14 @@ title: The difference between mod and use in Rust
 date: 2023-10-11
 icon: devicon-plain:rust
 cover: assets/posts/2023/10/assets/difference-between-mod-use-rust/rust-crab.png
+image: assets/posts/2023/10/assets/difference-between-mod-use-rust/rust-crab.png
 category:
   - Post
 tag:
   - rust
 ---
 
-This post clarifies the difference between `mod` and `use` in Rust and when to use them.
+This article clarifies the difference between `mod` and `use` in Rust and when to use them.
 
 <!-- more -->
 
