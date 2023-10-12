@@ -2,17 +2,22 @@
 title: The difference between mod and use in Rust
 date: 2023-10-11
 icon: devicon-plain:rust
-cover: assets/posts/2023/10/assets/difference-between-mod-use-rust/rust-crab.png
-image: ../../../.vuepress/public/assets/posts/2023/10/assets/difference-between-mod-use-rust/rust-crab.png
+# cover: assets/posts/2023/10/assets/difference-between-mod-use-rust/rust-crab.png
+cover: posts/2023/10/assets/difference-between-mod-use-rust-cover.png
+# image: ../../../.vuepress/public/assets/posts/2023/10/assets/difference-between-mod-use-rust/rust-crab.png
 category:
   - Post
 tag:
   - rust
 ---
 
+![alt](../../../.vuepress/public/assets/posts/2023/10/assets/difference-between-mod-use-rust/rust-crab.png)
+![alt](./assets/difference-between-mod-use-rust-cover.png)
+
 This article clarifies the difference between `mod` and `use` in Rust and when to use them.
 
 <!-- more -->
+
 
 [Chapter 7](https://doc.rust-lang.org/book/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html) in the Rust Book goes into more detail when creating crates and using `mod` and `use`.
 
@@ -30,7 +35,7 @@ Read on for some code examples on where you would use `use` and `mod`.
 
 ## Use
 
-:::note
+:::note Documentation
 [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/mod/use.html) has some examples on `use`.
 :::
 
@@ -149,6 +154,8 @@ No matter if you’re using an item from the standard library, an item you’ve 
 When creating modules and submodules you use `mod` to declare them so you can utilise them in your crate. This can be confusing, why not simply use use?
 
 In Rust a module is simply a container for zero or more items. It’s a way of grouping items together in a logical way so that your module is easy to navigate.
+
+When you use `mod` you are creating the path where your item is located. This path can then be used with a `use` statement like above.
 
 Without using `mod` you couldn't use `use` from another file. Take the following example:
 
