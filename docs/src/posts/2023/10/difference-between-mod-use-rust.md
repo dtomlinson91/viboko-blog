@@ -3,6 +3,7 @@ title: The difference between mod and use in Rust
 date: 2023-10-11
 icon: devicon-plain:rust
 cover: assets/posts/covers/rust/rust-crab.png
+image: assets/posts/covers/rust/rust-crab.png
 category:
   - Post
 tag:
