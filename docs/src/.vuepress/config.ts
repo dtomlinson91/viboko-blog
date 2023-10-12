@@ -15,7 +15,7 @@ export default defineUserConfig({
     shikiPlugin({
       // your options
       // https://theme-hope.vuejs.press/guide/interface/code-theme.html#with-shiki-highlighter
-      theme: "dracula-soft",
+      theme: "min-dark",
     }),
     searchProPlugin({
       indexContent: true,

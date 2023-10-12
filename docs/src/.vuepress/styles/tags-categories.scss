@@ -30,7 +30,7 @@ html[data-theme="dark"] {
     color: black !important;
     // padding: 0.125rem 0.2rem 0.125rem 0.8rem !important;
     background: linear-gradient(to right, $tag-button-color 100%, transparent 0%) !important;
-    clip-path: polygon(20% 0, 100% 0%, 100% 100%, 20% 99%, 0 50%) !important;
+    clip-path: polygon(10px 0, 100% 0%, 100% 100%, 10px 99%, 0 50%) !important;
     min-width: 2rem;
   }
 
