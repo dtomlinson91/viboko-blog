@@ -19,6 +19,7 @@ html[data-theme="dark"] {
           background-size: contain;
           width: 1.5rem;
           height: 1.5rem;
+          @include admonition-zoom;
         }
       }
     }
@@ -37,6 +38,7 @@ html[data-theme="dark"] {
           background-size: contain;
           width: 1.5rem;
           height: 1.5rem;
+          @include admonition-zoom;
         }
       }
     }
@@ -55,6 +57,7 @@ html[data-theme="dark"] {
           background-size: contain;
           width: 1.5rem;
           height: 1.5rem;
+          @include admonition-zoom;
         }
       }
     }
@@ -73,6 +76,7 @@ html[data-theme="dark"] {
           background-size: contain;
           width: 1.5rem;
           height: 1.5rem;
+          @include admonition-zoom;
         }
       }
     }
@@ -91,6 +95,7 @@ html[data-theme="dark"] {
           background-size: contain;
           width: 1.5rem;
           height: 1.5rem;
+          @include admonition-zoom;
         }
       }
     }
@@ -105,5 +110,8 @@ html[data-theme="dark"] {
     border-color: $series-border-color;
     border-style: solid;
     color: tint($series-border-color, 30%);
+    & img {
+      @include card-series-rotate;
+    }
   }
 }
