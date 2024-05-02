@@ -6,6 +6,7 @@ header.vp-navbar {
   backdrop-filter: saturate(200%) blur(5px);
 
   $font-size: 1rem;
+  // todo: this will need vp- prepending?
   .nav-dropdown {
     font-size: #{$font-size};
 
@@ -15,7 +16,7 @@ header.vp-navbar {
     }
   }
 
-  .nav-item {
+  .vp-nav-item {
     font-size: #{$font-size};
   }
 
