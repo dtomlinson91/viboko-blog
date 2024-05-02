@@ -97,12 +97,25 @@ export default hopeTheme({
       darkTheme: "https://giscus.app/themes/purple_dark.css",
     },
 
+    searchPro: {
+      indexContent: false,
+      hotKeys: [{ key: "k", ctrl: true }],
+      customFields: [
+        {
+          getter: (page) => page.frontmatter.category,
+          formatter: "Category: $content",
+        },
+        {
+          getter: (page) => page.frontmatter.tag,
+          formatter: "Tag: $content",
+        },
+      ],
+    },
+
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
       attrs: true,
-      card: true,
-      container: true,
       chart: false,
       codetabs: true,
       demo: false,

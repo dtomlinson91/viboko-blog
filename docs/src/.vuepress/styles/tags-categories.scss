@@ -2,27 +2,32 @@
 html[data-theme="dark"] {
   // tags
   .tag-list-wrapper .tag {
-    font-size: 14px;
+    font-size: 1.1rem;
     background: map-get($tag-background-color, "dark") !important;
     color: map-get($tag-color, "dark");
     border-radius: 0.25rem;
     box-shadow: 0 1px 4px 0 var(--card-shadow);
     padding: 0.4rem 0.8rem;
+    width: 4rem;
   }
 
   // categories
   .vp-category-list .vp-category {
-    font-size: 14px;
+    font-size: 1.1rem;
     background: map-get($tag-background-color, "dark") !important;
     color: map-get($tag-color, "dark");
     border-radius: 0.25rem;
     box-shadow: 0 1px 4px 0 var(--card-shadow);
     padding: 0.4rem 0.8rem;
+    width: 4rem;
   }
 
   .vp-category .count {
     margin-left: 0.5rem;
-    background: #2589f6;
+    background: None;
+    color: inherit;
+    font-size: 1.1rem !important;
+
   }
 
   .page-tag-item {

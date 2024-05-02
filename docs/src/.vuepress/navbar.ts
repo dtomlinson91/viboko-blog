@@ -9,22 +9,22 @@ export default navbar([
   {
     text: "Tags",
     icon: "mdi:tag",
-    link: "/tag",
+    link: "/tag/",
   },
   {
     text: "Categories",
     icon: "mdi:book",
-    link: "/category",
+    link: "/category/",
   },
   {
     text: "Series",
     icon: "ri:article-fill",
-    link: "/tag/series",
+    link: "/tag/series/",
   },
   {
     text: "Timeline",
     icon: "clarity:timeline-line",
-    link: "/timeline",
+    link: "/timeline/",
   },
   // "/demo/",
   // {
